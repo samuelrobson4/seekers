@@ -82,6 +82,36 @@
     .project-right {
       white-space: nowrap;
     }
+
+    @media (max-width: 600px) {
+      body {
+        padding-left: 24px;
+        padding-right: 24px;
+        padding-bottom: 5vh;
+      }
+
+      .container {
+        padding: 0;
+      }
+
+      .title {
+        font-size: 22px;
+        margin-bottom: 18px;
+      }
+
+      .subhead {
+        font-size: 11px;
+        margin-bottom: 28px;
+      }
+
+      .projects {
+        font-size: 9px;
+      }
+
+      .project-desc {
+        display: none;
+      }
+    }
   </style>
 </head>
 <body>
@@ -93,15 +123,15 @@
     </div>
     <div class="projects">
       <a class="project-row" href="#">
-        <span class="project-left">[] Stealth –</span>
+        <span class="project-left">[] Stealth<span class="project-desc"> –</span></span>
         <span class="project-right">[Consultancy] 2026</span>
       </a>
       <a class="project-row" href="#">
-        <span class="project-left">[] ThinkerAi – Re-imagined workspace for humans + ai</span>
+        <span class="project-left">[] ThinkerAi<span class="project-desc"> – Re-imagined workspace for humans + ai</span></span>
         <span class="project-right">[In-House] 2025</span>
       </a>
       <a class="project-row" href="https://intelligent-symptom-tracker.vercel.app/">
-        <span class="project-left">[] SymTrack – Intelligent Symptom Tracker</span>
+        <span class="project-left">[] SymTrack<span class="project-desc"> – Intelligent Symptom Tracker</span></span>
         <span class="project-right">[In-House] 2025</span>
       </a>
     </div>
