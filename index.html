@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>seekers</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Fira+Code:wght@400&family=Inter:wght@400&family=Playfair+Display:wght@700&display=swap" rel="stylesheet">
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      background: #FFFDF9;
+      display: flex;
+      justify-content: flex-start;
+      align-items: center;
+      min-height: 100vh;
+      padding-left: 12%;
+      padding-bottom: 10vh;
+    }
+
+    .container {
+      max-width: 675px;
+      width: 100%;
+      padding: 0 24px;
+    }
+
+    .title {
+      font-family: 'Playfair Display', serif;
+      font-size: 30px;
+      font-weight: 700;
+      color: #1a1a1a;
+      margin-bottom: 24px;
+    }
+
+    .subhead {
+      font-family: 'Inter', sans-serif;
+      font-size: 13.5px;
+      font-weight: 400;
+      color: #1a1a1a;
+      line-height: 1.6;
+      margin-bottom: 40px;
+    }
+
+    .subhead p + p {
+      margin-top: 9px;
+    }
+
+    .projects {
+      font-family: 'Fira Code', monospace;
+      font-size: 12px;
+      font-weight: 400;
+      color: #1a1a1a;
+      display: flex;
+      flex-direction: column;
+      gap: 10px;
+    }
+
+    .project-row {
+      display: flex;
+      justify-content: space-between;
+      flex-wrap: wrap;
+      text-decoration: none;
+      color: inherit;
+      font-family: inherit;
+      font-size: inherit;
+    }
+
+    .project-row:hover {
+      opacity: 0.7;
+    }
+
+    .project-left {
+      margin-right: 16px;
+    }
+
+    .project-right {
+      white-space: nowrap;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <h1 class="title">seekers</h1>
+    <div class="subhead">
+      <p>seekers is an ai product lab building new ways for humans and ai to interact</p>
+      <p>We believe the future of ai should be human-centered, built around what actually benefits people and communities. Our products are prototypes of that future.</p>
+    </div>
+    <div class="projects">
+      <a class="project-row" href="#">
+        <span class="project-left">[] Stealth –</span>
+        <span class="project-right">[Consultancy] 2026</span>
+      </a>
+      <a class="project-row" href="#">
+        <span class="project-left">[] ThinkerAi – Re-imagined workspace for humans + ai</span>
+        <span class="project-right">[In-House] 2025</span>
+      </a>
+      <a class="project-row" href="https://intelligent-symptom-tracker.vercel.app/">
+        <span class="project-left">[] SymTrack – Intelligent Symptom Tracker</span>
+        <span class="project-right">[In-House] 2025</span>
+      </a>
+    </div>
+  </div>
+</body>
+</html>
